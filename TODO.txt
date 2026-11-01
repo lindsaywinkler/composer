@@ -8,4 +8,4 @@ Add format and lint on save
 
 Add hot reloading on the browser side
 
-Add serialisation
+Add serialisation (maybe use Zod for validation)
