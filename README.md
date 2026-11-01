@@ -48,3 +48,8 @@ The domain itself is oriented around composition of functions
 
 TypeScript must be compiled to JavaScript.  `index.html` is already
 written to expect, and to load, the JavaScript file that is produced.
+
+Running `tsc --watch` in the project root directory will automatically 
+recompile TypeScript files as they change.  The source and destination
+are configured in `tsconfig.json` so no command line options are 
+required.
