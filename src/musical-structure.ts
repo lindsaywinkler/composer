@@ -35,3 +35,12 @@ export type Beat = {
 export type Bar = {
     beats: Beat[]
 }
+
+// Basic helpers below
+export const pitch = (midiNumber: number, velocity = 80): Pitch => ({ midiNumber, velocity });
+
+export const chord = (midiNumbers: number[], relativeOnset: number, duration: number): Beat => ({
+    pitches: midiNumbers.map(n => pitch(n)),
+    relativeOnset,
+    duration,
+});

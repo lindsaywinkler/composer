@@ -8,3 +8,4 @@
 // Add a play button and a tempo input.
 
 // Import separate libraries for each of these aspects.
+import { testGraph } from "./test-graph";

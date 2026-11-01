@@ -62,3 +62,5 @@ Running `tsc --watch` in the project root directory will automatically
 recompile TypeScript files as they change.  The source and destination
 are configured in `tsconfig.json` so no command line options are 
 required.
+
+Then load `index.html` in a browser.
