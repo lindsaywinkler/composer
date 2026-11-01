@@ -44,3 +44,13 @@ export const chord = (midiNumbers: number[], relativeOnset: number, duration: nu
     relativeOnset,
     duration,
 });
+
+// Replace or augment this with `Bar` transformers which gradually decorate
+// the `Bar` into the final form to be rendered/played.
+//
+// eg. taking a tonic note and building a chord of a particular type
+// on top of it, then voicing and inverting the chord into the required form
+// (potentially using context and voice leading) and then adding rhythm.
+//
+// The ultimate result is a bar that can be inserted into a graph, to form
+// one component of a piece of music.
