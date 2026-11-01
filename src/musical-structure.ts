@@ -4,7 +4,7 @@
  * from that base information.  Conversely, a helper can 
  * generate a pitch from a human readable description.
  */
-type Pitch = {
+export type Pitch = {
     midiNumber: number
     velocity: number
 }
@@ -19,7 +19,7 @@ type Pitch = {
  * Beats are aliased to quavers, meaning possible rhythms are heavily
  * constrained.
  */
-type Beat = {
+export type Beat = {
     pitches: Pitch[]
 
     /** Relative onset is a number of quavers from the start of the bar */ 
@@ -32,6 +32,6 @@ type Beat = {
  * A `Bar` is a bag of beats.  It doesn't have a time signature:
  * notes will just sound at some delay after the start of the bar.
  */
-type Bar = {
+export type Bar = {
     beats: Beat[]
 }

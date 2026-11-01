@@ -13,17 +13,17 @@
  * even though this modelling could capture workflows or dependencies
  * of any type.
  */
-type GraphNode<T> = {
+export type GraphNode<T> = {
     id: string;
     value: T;
 }
 
-type Edge<T> = {
+export type Edge<T> = {
     from: GraphNode<T>;
     to: GraphNode<T>;
 }
 
-type Graph<T> = {
+export type Graph<T> = {
     nodes: GraphNode<T>[];
     edges: Edge<T>[];
 }
