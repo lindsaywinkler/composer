@@ -18,6 +18,15 @@ chord name, multiple orthogonal levels of decoration may be added:
 - voicing
 - rhythm
 
+```mermaid
+graph LR
+    A(Bar 1)
+    A --> B(Bar 2)
+    B --> |Repeat| A
+    B --> C(Bar 4)
+```
+*Example visual depiction*
+
 ## Overview 
 
 This project is intentionally sparse on tooling.  A single `index.html`
