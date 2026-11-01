@@ -1,0 +1,11 @@
+It probably does make sense to pull in a good drag and 
+drop library.
+
+Each decoration can be a function that transforms the underlying
+this which it is transforming.  See the Swift functional programming book.
+
+Add format and lint on save
+
+Add hot reloading on the browser side
+
+Add serialisation
