@@ -7,8 +7,14 @@
  * This in turn enables testing of both transformations
  * and renderers. */
 
-import type { Edge, Graph, GraphNode } from "./graph";
-import { type Bar, Beat, chord, type Pitch, pitch } from "./musical-structure";
+import type { Edge, Graph, GraphNode } from "./graph.js";
+import {
+	type Bar,
+	Beat,
+	chord,
+	type Pitch,
+	pitch,
+} from "./musical-structure.js";
 
 // Create a graph of Bars where each bar has some basical
 // musical structure in it - just enough to test
