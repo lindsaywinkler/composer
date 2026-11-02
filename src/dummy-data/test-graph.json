@@ -1,0 +1,52 @@
+{
+	"nodes": [
+		{
+			"id": "bar1",
+			"value": {
+				"beats": [
+					{
+						"pitches": [
+							{ "midiNumber": 45, "velocity": 80 },
+							{ "midiNumber": 60, "velocity": 80 },
+							{ "midiNumber": 64, "velocity": 80 }
+						],
+						"relativeOnset": 0,
+						"duration": 8
+					}
+				]
+			}
+		},
+		{
+			"id": "bar2",
+			"value": {
+				"beats": [{ "pitches": [], "relativeOnset": 0, "duration": 8 }]
+			}
+		}
+	],
+	"edges": [
+		{
+			"from": {
+				"id": "bar1",
+				"value": {
+					"beats": [
+						{
+							"pitches": [
+								{ "midiNumber": 45, "velocity": 80 },
+								{ "midiNumber": 60, "velocity": 80 },
+								{ "midiNumber": 64, "velocity": 80 }
+							],
+							"relativeOnset": 0,
+							"duration": 8
+						}
+					]
+				}
+			},
+			"to": {
+				"id": "bar2",
+				"value": {
+					"beats": [{ "pitches": [], "relativeOnset": 0, "duration": 8 }]
+				}
+			}
+		}
+	]
+}

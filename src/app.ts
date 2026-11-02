@@ -9,5 +9,3 @@
 
 // Import separate libraries for each of these aspects.
 import { testGraph } from "./test-graph.js";
-
-console.log(JSON.stringify(testGraph));
